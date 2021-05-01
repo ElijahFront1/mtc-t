@@ -1,0 +1,28 @@
+.menu {
+    background-color: #4f5f6f;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 0px;
+    padding-left: 0px;
+    &__item {
+        height: 60px;
+        display: flex;
+        color: #a7afb7;
+        align-items: center;
+        &__icon {
+            padding-left: 20px;
+            padding-right: 14px;
+            font-size: 16px;
+        }
+    }
+    &__item:hover {
+        background-color: #59c2e6;
+        color: #ffffff;
+        text-decoration: none;
+    }
+}
+
+.activeLink {
+    background-color: #40505f;
+    color: white;
+}
