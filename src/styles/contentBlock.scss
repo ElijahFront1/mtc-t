@@ -1,0 +1,28 @@
+.content-block {
+    padding-left: 70px;
+    padding-top: 52px;
+}
+.headline {
+    border-bottom: 2px solid #dbe1e8;
+    &__title {
+        font-size: 18px;
+        font-weight: bold;
+        color: #4f5f6f;
+        display: block;
+        padding-bottom: 5px;
+    }
+    &__discription {
+        font-size: 14;
+        font-weight: 400;
+        color: #7e8e9f;
+    }
+}
+
+.chart {
+    background-color: #ffffff;
+    margin-top: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}

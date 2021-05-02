@@ -3,10 +3,10 @@ import LineChart from '../LineChart.js';
 
 function ContentBlock1() {
     return (
-        <div className="wrapper">
-            <div className="content">
-                <p className="content__title">Hi Fillip,</p>
-                <p className="content__discription">Checkout your latest projects and their progress.</p>
+        <div className="content-block">
+            <div className="headline">
+                <span className="headline__title">Hi Fillip,</span>
+                <span className="headline__discription">Checkout your latest projects and their progress.</span>
             </div>
             <div className="chart">
                 <LineChart />

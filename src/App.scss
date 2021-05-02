@@ -1,0 +1,17 @@
+@import "./custom.scss";
+@import "./styles/top.scss";
+@import "./styles/navMenu.scss";
+@import "./styles/contentBlock.scss";
+@import "./styles/contentBlock2.scss";
+@import "./styles/content.scss";
+
+.container-fluid {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+}
+
+.MyChart {
+  background-color: white;
+  width: 700px;
+  height: 100%;
+}
